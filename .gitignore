@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+.spotify_cache
+.cache
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Build & Distribution
+build/
+dist/
+*.spec
+
+# Downloads & Output
+downloads/
+*.mp3
+*.webm
+*.m4a
+
+# Python Cache & Tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
